@@ -1,5 +1,12 @@
+/*
+Euler Problem: 013
+Problem Statement: 
+Comment: A very old code done in C. Document the logic used.
+*/
+
 #include <stdio.h>
 #include <math.h>
+
 int main(){
   
   unsigned int n;
