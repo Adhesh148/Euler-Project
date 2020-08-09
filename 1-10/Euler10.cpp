@@ -1,17 +1,10 @@
 /******************************************
 * AUTHOR : AdheshR*
+* Problem Statement: The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17. Find the sum of all the primes below two million. *
+* Comment: Precompute Sum of Max N primes, use Eratosthenes Seive *
 ******************************************/
 #include <bits/stdc++.h>
 using namespace std;
-
-/*
-Problem Statement:
-The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
-Find the sum of all the primes below two million.
-
-Stratergy: Precompute Sum of Max N primes, use Eratosthenes Seive
-
-*/
 
 void constructSeive(vector<bool> &seive,int maxN);
 void accumulateSum(vector<long long int> &sum,vector<bool> seive,int maxN);

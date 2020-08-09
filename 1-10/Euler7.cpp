@@ -1,5 +1,7 @@
 /******************************************
 * AUTHOR : AdheshR*
+* Problem Statement: What is the Nth prime number?
+* Comment: Require faster method. Does not pass all test cases. Times out.
 ******************************************/
 #include <bits/stdc++.h>
 using namespace std;
@@ -29,8 +31,7 @@ long long int findNPrime(int N)
 
 	int count = 2;
 	long int k = 1;
-
-
+	
 	while(count!=N)
 	{
 		long long int guess1 = 6*k - 1;

@@ -24,7 +24,7 @@ int main()
 			for(int j=0;j<i+1;++j)
 				cin>>numbers[i][j];
 		}
-		cout << numbers[0][0]<<endl;
+		// cout << numbers[0][0]<<endl;
 		cout << maxPath(numbers,N,numbers[0][0],1,0)<<endl;
 	}
 }

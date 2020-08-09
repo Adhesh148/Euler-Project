@@ -1,5 +1,8 @@
 /******************************************
 * AUTHOR : AdheshR*
+* Problem Statement: Given , N Check if there exists any Pythagorean triplet for which a + b + c = N
+    Find maximum possible value of abc among all such Pythagorean triplets, If there is no such Pythagorean triplet print -1 *
+* Comment: *
 ******************************************/
 #include <bits/stdc++.h>
 using namespace std;
@@ -20,7 +23,6 @@ int main()
         {
             long long int a,b,c;
             a = 1;
-
             long long int maxProd = -1;
 
             //optimized while condition from N - 2
@@ -33,10 +35,7 @@ int main()
 
                 a = a+1;
             }
-
             cout << maxProd<<endl;
-
         }
-
     }
 }

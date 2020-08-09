@@ -1,16 +1,16 @@
+/******************************************
+* AUTHOR : AdheshR *
+* Euler Problem: 005 *
+* Problem Statement: What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?*
+* Comment: LCM approach. Passes all test cases.*
+******************************************/
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
-/*
-Problem Statement:
------------------
-2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
-What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
-*/
 
 long int gcd(long long int a, long long int b);
 

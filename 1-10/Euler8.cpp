@@ -1,12 +1,10 @@
 /******************************************
 * AUTHOR : AdheshR*
+*Problem Statement: Find the greatest product of K consecutive digits in the N-digit number. *
+*Comment:  A kinda DP Approach.*
 ******************************************/
 #include <bits/stdc++.h>
 using namespace std;
-
-// Problem Statement:
-// ------------------
-// Find the greatest product of K consecutive digits in the N-digit number. 
 
 int main()
 {
@@ -18,7 +16,6 @@ int main()
 		int N,K;
 		cin>>N>>K;
 		// cout << N<<K;
-
 		int number[N];
 
 		for(int j=0;j<N;++j)
@@ -49,7 +46,6 @@ int main()
 			Prod = max(Prod,MovingProd);
 			++j;
 		}
-
 		cout <<Prod<<endl;
 	}
 }

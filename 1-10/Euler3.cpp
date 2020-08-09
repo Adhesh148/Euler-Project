@@ -1,13 +1,13 @@
 /******************************************
 * AUTHOR : AdheshR*
+* Problem Statement: What is the largest prime factor of the number 600851475143 ?*
+* Comment: Passed all TestCases.
 ******************************************/
 #include <bits/stdc++.h>
 using namespace std;
 void constructSeive(vector<bool> &seive, long long int maxN);
 long long int findLargestPrime(long long int N,vector<bool> seive,long long int maxN);
 bool isPrime(long long int n);
-
-// Passed all TestCases.
 
 int main()
 {
@@ -64,10 +64,7 @@ long long int findLargestPrime(long long int N,vector<bool> seive,long long int 
                		LPrime = max(LPrime,N/i);
             }
             else if(isPrime(int(N/i)))
-            {
-            	LPrime = max(LPrime,N/i);
-            }
-            
+            	LPrime = max(LPrime,N/i); 
         }
     }
 
